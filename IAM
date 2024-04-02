@@ -37,3 +37,25 @@ IAM PASSWORD POLICY:
    * U2F
    * Hardware key
    * Govcloud device
+aws-cli - used to interact with aws account
+ aws-sdk - programmatic access
+
+Install AWS CLI:
+ windows:
+   * Download MSI and install it
+   * Check ENV variable
+ Linux:
+   * download ZIP file
+   * Unzip
+   * sudo <install>
+#aws configure
+
+AWS CLOUDSHELL: command line from AWS
+
+IAM ROLE:
+*********
+ * like user not for physical use.
+ * AWS service need to perform action on aws
+SECURITY TOOL:
+  * IAM Credential Report ( Acc Level) : list all acc users and status of cred
+  * IAM Access Advisor(user level): Service permission for user and last access of service
