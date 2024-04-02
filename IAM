@@ -1,0 +1,39 @@
+IAM:
+
+* Identity and Access Management - Global Service
+* Default: Root account
+ Group: contains user not another group
+ User: can be member of Multiple group
+ 
+PerMission:
+* Policy- in JSON docs - defines permission
+* AWS apply - Least privileage permission
+
+IAM Policy Inheritance:
+
+* Inline policy - only for one user
+* 
+Policy Structure:
+ version: "2012-10-17"
+ id: <policy identifier>
+ statement:
+    sid: identifier of statement
+    effect: allow or deny access
+    principle: user/account/role which this policy apply
+    Actions: allow or deny
+    resources: resource list which this action applied
+    condition: when this policy effect
+
+IAM PASSWORD POLICY:
+ * can setup password policy
+ * Prevent password resue
+ * password change time
+ MFA: Multi Factor Authentication
+  * account not compromised if MFA enabled
+  
+  VIRTUAL MFA DEVICE:
+   ******************
+   * Google Authenticator or authy
+   * U2F
+   * Hardware key
+   * Govcloud device
